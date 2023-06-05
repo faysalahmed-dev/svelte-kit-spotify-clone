@@ -1,6 +1,11 @@
 {
 	"name": "svelte-kit-spotify-clone",
 	"version": "0.0.1",
+	"author": {
+		"name": "Faysal Ahmed",
+		"url": "https://www.github.com/faysalahmed-dev"
+	},
+	"description": "spotify clone build with svelte kit",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -14,20 +19,31 @@
 		"@fontsource/fira-mono": "^4.5.10",
 		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "^2.1.0",
-		"@sveltejs/kit": "^1.19.0",
+		"@sveltejs/kit": "^1.20.1",
 		"@types/cookie": "^0.5.1",
 		"@typescript-eslint/eslint-plugin": "^5.59.7",
 		"@typescript-eslint/parser": "^5.59.7",
+		"autoprefixer": "^10.4.14",
 		"eslint": "^8.41.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-svelte": "^2.29.0",
+		"postcss": "^8.4.23",
+		"postcss-load-config": "^4.0.1",
 		"prettier": "^2.8.8",
 		"prettier-plugin-svelte": "^2.10.0",
 		"svelte": "^3.59.1",
 		"svelte-check": "^3.4.3",
+		"svelte-preprocess": "^5.0.3",
+		"tailwindcss": "^3.3.1",
 		"tslib": "^2.5.2",
 		"typescript": "^5.0.4",
 		"vite": "^4.3.9"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@popperjs/core": "^2.11.8",
+		"classnames": "^2.3.2",
+		"flowbite": "^1.6.5",
+		"flowbite-svelte": "^0.37.4"
+	}
 }
