@@ -1,8 +1,9 @@
 /* Write your global styles here, in PostCSS syntax */
+@import '@fontsource/metropolis/400.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Metropolis';
 }
