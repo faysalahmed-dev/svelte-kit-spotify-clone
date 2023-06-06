@@ -5,10 +5,12 @@ const config = {
 		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
 	],
 	darkMode: 'class',
+	plugins: [require('flowbite/plugin')],
 	theme: {
-		extend: {}
-	},
-	plugins: [require('flowbite/plugin')]
+		extend: {
+			colors: {}
+		}
+	}
 };
 
 module.exports = config;
