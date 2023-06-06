@@ -4,8 +4,7 @@ import type { LayoutLoad } from './$types';
 export const load: LayoutLoad = async ({ data, url }) => {
 	if (data.user && url.pathname === '/login') {
 		throw redirect(307, '/');
-	}
-	if (!data.user && url.pathname !== 'login') {
+	} else if (!data.user && url.pathname !== '/login') {
 		throw redirect(307, '/login');
 	}
 	return { user: data.user };
