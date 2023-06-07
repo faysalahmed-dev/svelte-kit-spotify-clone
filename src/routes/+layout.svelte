@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
 	import '../app.css';
 </script>
 
-<main class="dark:bg-gray-900 bg-gray-100 min-h-screen dark:text-white text-gray-700">
+<main class="bg-gray-800 min-h-screen text-gray-200">
 	<slot />
 </main>
